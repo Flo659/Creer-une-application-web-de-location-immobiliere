@@ -1,0 +1,70 @@
+
+.container__collapse--about{
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+
+.container__collapse--logement{
+    width: 46%;
+    flex-direction: column;
+}
+
+.toggle_close{
+    border: 0px solid ;
+    border-radius: 5px;
+    width: 100%;
+    height: 37px;
+    background-color: #ff6060;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.title_toggle{
+    font-family: montserrat;
+    color: white;
+    padding-left: 15px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.toggle_open{
+width: 100%;
+font-family: montserrat;
+color: #ff6060;
+background-color: #f6f6f6;
+line-height: 25px;
+padding-top: 20px;
+padding-bottom: 10px;
+}
+
+.toggle_open--paragraph{
+    padding-left: 15px;
+    font-size: 18px;
+}
+
+.icon_arrowActive{
+    width: 50px;
+    height: 14px;
+    fill: none;
+    transform: rotate(0deg);
+    transition: transform 0.8s;
+}
+
+.icon_arrow{
+    width: 50px;
+    height: 14px;
+    fill: none;
+    transform: rotate(180deg);
+    transition: transform 0.8s;
+}
+
+@media screen and (max-width: 767px){
+    .toggle_open{
+        padding-bottom: 90px;
+    }
+}

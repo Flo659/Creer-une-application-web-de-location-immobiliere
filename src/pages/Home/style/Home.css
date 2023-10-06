@@ -1,0 +1,61 @@
+
+.container_img_paysage--home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.container_text{
+    position: absolute;
+    width: 86%;
+}
+
+.text_over_img{
+    color: white;
+    font-family: montserrat;
+    font-size: 48px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.margin_page{
+    width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section_cards{
+    margin-top: 40px;
+    border-radius: 25px;
+    background-color: #f6f6f6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 30px;
+    padding-top: 50px;
+    margin: auto;
+    padding-bottom: 70px;
+}
+
+@media screen and (max-width: 767px){
+    .img_paysage--home{
+        height: 150px;
+    }
+
+    .text_over_img{
+        font-size: 28px;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+   
+

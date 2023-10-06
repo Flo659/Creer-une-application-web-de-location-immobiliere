@@ -1,0 +1,40 @@
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.container_nav_position{
+  display: flex;
+  justify-content: space-between;
+  width: 253px;
+}
+
+.tab_navActive{
+  color: #ff6060;
+  text-decoration: none;
+  font-size: 24px;
+  font-family: montserrat;
+  border-bottom: 1px solid;
+  height: 26px;
+}
+
+.tab_nav_notActive{
+  color: #ff6060;
+  text-decoration: none;
+  font-size: 24px;
+  font-family: montserrat;
+}
+
+.tab_nav_notActive,.tab_navActive{
+  font-weight: 500;
+}
+
+@media screen and (max-width: 548px){
+  .nav{
+    flex-direction: column;
+  }
+  
+}

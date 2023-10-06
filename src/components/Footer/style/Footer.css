@@ -1,0 +1,32 @@
+.footer{
+    background-color: black;
+    width: 100%;
+}
+
+.container_footer{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    width: 100%;
+}
+
+.logo_footer{
+    padding-top: 55px;
+    height: 39px;
+    width: 122px;
+}
+
+.writing_footer{
+    color: white;
+    font-family: montserrat;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+@media screen and (max-width: 767px){
+    .writing_footer{
+        font-size: 20px;
+    }
+}

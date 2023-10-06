@@ -1,0 +1,23 @@
+.container_img_paysage--about{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.margin_page--collapse_about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img_paysage--about{
+    filter: brightness(0.8);
+}
+
+.toggle_open--about{
+    width: 100%;
+}
+
+
+
