@@ -25,7 +25,6 @@ export function Home(){
                 /> 
                 <section className="section_cards">
                     {products.map((product)=>{
-                        console.log(product)
                         return(
                             <Cards  img={product.cover} 
                                     to={`/logement/${product.id}`} 

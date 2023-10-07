@@ -16,7 +16,6 @@ export function Slideshow(props){
         setindex(index === length-1 ? 0: newIndex)
     }
 
-    console.log(props.length)
     const index_initial= index+1;
 
     return(
@@ -24,7 +23,6 @@ export function Slideshow(props){
             <div className="carousel">
                 <div className="carousel--inner">
                     {props.images.map((image, current)=>{
-                        console.log(image)
                         return(
                             <div key={current} className={index===current ?"slideActive":"slide"}>
                                 {index===current &&(
