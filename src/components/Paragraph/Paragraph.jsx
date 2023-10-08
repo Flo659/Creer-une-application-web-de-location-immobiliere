@@ -1,4 +1,4 @@
-import "./Paragraph.css"
+import "./style/Paragraph.css"
 
 export function Paragraph({get_equipments}){
     return(
