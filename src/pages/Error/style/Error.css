@@ -30,13 +30,16 @@
 
 @media screen and (max-width:767px) {
     .title{
-        font-size: 120px;
+        font-size: 96px;
         margin-bottom: 0px;
+        margin-top: 135px;
     }
+
     .writer_error{
-        font-size: 20px;
+        font-size: 18px;
     }
+    
     .writer_back_home{
-        font-size: 16px;
+        font-size: 14px;
     }
 }

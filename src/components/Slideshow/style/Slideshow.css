@@ -48,8 +48,12 @@
     height: 80px;
 }
 
-.container_number_length{
+.container_number_length_Active{
     position: absolute;
+}
+
+.container_number_length{
+    display: none;
 }
 
 .number_length{
@@ -68,5 +72,10 @@
     .size_button{
         width: 25px;
         height: 80px;
+    }
+
+    .img_caroussel{
+        height: 335px;
+       
     }
 }

@@ -6,6 +6,10 @@
   margin-top: 25px;
 }
 
+.img_logo{
+  width: 211px;
+}
+
 .container_nav_position{
   display: flex;
   justify-content: space-between;
@@ -32,9 +36,28 @@
   font-weight: 500;
 }
 
-@media screen and (max-width: 548px){
+@media screen and (max-width: 330px){
   .nav{
     flex-direction: column;
+  }
+  
+}
+
+@media screen and (max-width: 767px){
+  .img_logo{
+    width: 150px;
+  }
+
+  .container_nav_position{
+    width: 155px;
+  }
+  
+  .tab_navActive{
+    height: 15px;
+  }
+  .tab_nav_notActive, .tab_navActive{
+    font-size: 13px;
+    text-transform: uppercase;
   }
   
 }

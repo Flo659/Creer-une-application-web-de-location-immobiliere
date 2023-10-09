@@ -4,19 +4,19 @@ import "../About/style/About.css"
 import { Banner } from "../../components/Banner/Banner";
 import { LayoutPage } from "../../components/LayoutPage/LayoutPage";
 
-
 export function About() {
 
     return (
         <>
             <LayoutPage>
-                <Banner className_container_img="container_img_paysage--about img_paysage--about" 
+                <Banner className_container_img="container_img_paysage--about" 
+                        className="img_paysage--about"
                         src={imgPaysage} 
                         alt="paysage montagneux"/> 
                 <section className="margin_page--collapse_about">
                     <Collapsible className="container__collapse--about"
                                  label="Fiabilité"
-                                paragraph="Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées par nos équipes."/>
+                                 paragraph="Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées par nos équipes."/>
                     <Collapsible className="container__collapse--about"
                                  label="Respect"
                                  paragraph="La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de pertubation du voisinage entraînera une exclusion de notre plateforme."/>

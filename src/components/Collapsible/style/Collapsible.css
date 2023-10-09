@@ -63,8 +63,20 @@ padding-bottom: 10px;
     transition: transform 0.8s;
 }
 
+.container_list{
+    margin-top: 0px;
+    padding-left: 0px;
+}
+
 @media screen and (max-width: 767px){
-    .toggle_open{
-        padding-bottom: 90px;
+    .container__collapse--about{
+        width: 100%;
     }
+    .toggle_open{
+        padding-bottom: unset;
+    }
+    .toggle_open--paragraph{
+        font-size: 16px;
+    }
+
 }

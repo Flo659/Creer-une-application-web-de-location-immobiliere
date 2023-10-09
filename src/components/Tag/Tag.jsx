@@ -1,10 +1,10 @@
-import "./Tag.css"
+import "./style/Tag.css"
 
-export function Tag({getTag}){
+export function Tag(props){
     return( 
         <div className="tag">
             <p className="writer">
-                {getTag}
+                {props.getTag}
             </p>
         </div>
     )

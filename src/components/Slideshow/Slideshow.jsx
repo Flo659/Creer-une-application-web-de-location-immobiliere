@@ -30,7 +30,7 @@ export function Slideshow(props){
                                          src={image} 
                                          alt={props.alt}/>
                                 )}
-                                <div className="container_number_length">
+                                <div className={index===current ?"container_number_length_Active":"container_number_length"}>
                                     <p className={length===1 ?"number_length_desactive":"number_length"}>
                                         {index_initial} / {length}
                                     </p>

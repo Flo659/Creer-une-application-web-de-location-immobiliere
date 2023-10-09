@@ -7,6 +7,13 @@
     margin-bottom: 40px;
 }
 
+.img_paysage--home{
+    border-radius: 25px;
+    object-fit: cover;
+    width: 100%;
+    height: 223px;
+}
+
 .container_text{
     position: absolute;
     width: 86%;
@@ -40,19 +47,25 @@
 }
 
 @media screen and (max-width: 767px){
+    .container_img_paysage--home{
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+
     .img_paysage--home{
-        height: 150px;
+        height: 111px;
+        border-radius: 15px;
     }
     
     .section_cards{
         flex-direction: column;
         align-items: center;
         background-color: transparent;
+        padding-top: 0px;
         }
-    
-
+        
     .text_over_img{
-        font-size: 28px;
+        font-size: 24px;
         text-align: center;
     }
 }

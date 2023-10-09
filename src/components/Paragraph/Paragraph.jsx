@@ -1,9 +1,7 @@
 import "./style/Paragraph.css"
 
-export function Paragraph({get_equipments}){
+export function Paragraph(props){
     return(
-        <ul className="list_equipments">
-            <li >{get_equipments}</li>
-        </ul>
+            <li className="list_equipments">{props.get_equipments}</li>
     )
 }

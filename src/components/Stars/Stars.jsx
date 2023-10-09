@@ -1,4 +1,4 @@
-import "./Stars.css"
+import "./style/Stars.css"
 import star_orange from "../../Images/star_orange.jpg"
 import star_grey from "../../Images/star_grey.jpg"
 

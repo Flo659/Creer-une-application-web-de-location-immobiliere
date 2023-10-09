@@ -10,7 +10,8 @@ export function Home(){
         <>
             <LayoutPage>
                 <Banner 
-                    className_container_img="container_img_paysage--home" 
+                    className_container_img="container_img_paysage--home"
+                    className="img_paysage--home" 
                     src={imgRoche} 
                     alt="mer et rochers" 
                     children={

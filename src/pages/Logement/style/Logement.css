@@ -27,7 +27,7 @@
 .location_logement{
     font-family: montserrat;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 17px;
     color: #ff6060;
     margin-top: 0px;
     margin-bottom: 23px;
@@ -47,7 +47,7 @@
 
 .name_host{
     font-family: montserrat;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 500;
     color: #ff6060;
     width: 94px;
@@ -79,6 +79,15 @@
 
     .container_name_logement_and_rating{
         flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .title_logement{
+        font-size: 21px;
+    }
+
+    .location_logement{
+        font-size: 15px;
     }
     
     .container_host_and_stars_rating{
@@ -90,6 +99,12 @@
 
     .name_host{
         margin-bottom: unset;
+        font-size: 15px;
+    }
+
+    .circle_picture{
+        width: 54px;
+        height: 54px;
     }
 
      .block_stars{

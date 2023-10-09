@@ -13,11 +13,26 @@
 
 .img_paysage--about{
     filter: brightness(0.8);
+    border-radius: 25px;
+    object-fit: cover;
+    width: 100%;
+    height: 223px;
 }
 
 .toggle_open--about{
     width: 100%;
 }
+
+@media screen and (max-width: 767px){
+    .container_img_paysage--about{
+        margin-top: 20px;
+    }
+    .img_paysage--about{
+        height: 240px;
+    }
+}
+
+
 
 
 

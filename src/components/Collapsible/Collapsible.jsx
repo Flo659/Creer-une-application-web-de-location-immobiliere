@@ -20,7 +20,7 @@ export function Collapsible(props){
                 </svg>
             </button>
            {open &&<div id="contenue dépliable" className="toggle_open">
-            <div className="toggle_open--paragraph">{props.paragraph}</div></div>} 
+            <div className="toggle_open--paragraph"><ul className="container_list">{props.paragraph}</ul></div></div>} 
         </div> 
     )
 }
